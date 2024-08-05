@@ -7,4 +7,6 @@ switch (fruta) {      // escopo da switch case
     console.log("suco de laranja")
     case "banana":
     console.log("vitamina de banana")
+    case "maçã":
+    console.log("suco de maçã") // o código continua a executar as linhas uma vez que foi validada a case. Para alterar, usamos o comando break.
 }
